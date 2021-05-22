@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::771785741123:role/SaveBears-GlacierChecking-dev",
+      "role_name": "SaveBears-GlacierChecking-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:ap-northeast-2:771785741123:function:SaveBears-GlacierChecking-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "b7r6884n9b",
+      "rest_api_url": "https://b7r6884n9b.execute-api.ap-northeast-2.amazonaws.com/api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
